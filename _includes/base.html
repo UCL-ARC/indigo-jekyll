@@ -151,6 +151,8 @@
             {% if page.nblink %}
                <div id="slidelink">
                  <a href="{{site.baseurl}}/{{page.path | remove: ".html" | remove: ".md"}}.ipynb">Notebook download</a>
+                 <br>
+                 <a href="{{site.baseurl}}/jupyter-lite/lab/index.html?path={{page.path | remove: ".html" | remove: ".md"}}.ipynb">Run in browser</a>
                </div>
             {% endif %}
             {% if page.slidelink %}
