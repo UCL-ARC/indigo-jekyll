@@ -12,6 +12,9 @@
 	@include gs-media(m, max) {
 		height: auto;
 		border-bottom: 1px solid #ccc;
+		a {
+			color: $white;
+		}
 		.wrapper {
 			background-color: #444;
 		}
@@ -20,6 +23,11 @@
 	img {
 		width: auto;
 	}
+	.give-link {
+	background-color: #f6be00; 
+	padding: 1.7em 1em;
+}
+
 }
 
 .masthead__search {
@@ -30,7 +38,7 @@
 	width: 42%;
 	@include gs-media(m, max) {
 		float: none;
-		width: 100%;
+		width: 90%; 
 		padding: 0;
 		margin-top: 3.5em;
 		height: 4em;
@@ -44,7 +52,7 @@
 
 .masthead__list {
 	float: left;
-	width: 55%;
+	width: 56%;
 	font-size: 16px;
 	display: block;
 	margin-left: 0;
@@ -69,6 +77,7 @@
 	@include gs-media(m, max) {
 		display: block;
 		text-align: left;
+		margin-left: 5%;
 	}
 	@include respond-max($screen-lg) {
 		padding-right: .75em;
@@ -87,3 +96,37 @@
 		color: $white;
 	}
 }
+
+.masthead__link.give-link {
+	color: #000;
+}
+
+
+@media screen and (min-width:766px) and  (max-width: 1090px){
+
+.masthead   {
+	margin-left: -30px;
+	}
+.masthead_search {
+	width: 40%;
+}
+
+.masthead a  {
+	font-size: 90%;
+}
+
+.masthead  .give-link {
+	padding: 15px 5px;
+}
+
+}
+
+@media screen and (max-width: 767px)
+{
+.masthead .give-link {
+    width: 20%;
+    padding: .5em 1em .5em 1em;
+}
+}
+
+
