@@ -2201,8 +2201,12 @@ figure + figure, figure + p {
   font-size: 14px;
   font-size: 1.4rem; }
   .breadcrumb__item:after {
-    content: "/";
-    color: #aaaaaa;
+    font-family: "FontAwesome", monospace;
+    font-size: 1em;
+    content: "\f102";
+    display: inline-block;
+    color: #034da1;
+    transform: rotate(90deg);
     margin: 0 0.75em;
     position: relative;
     top: 1px; }
@@ -4011,7 +4015,7 @@ Notes:
   margin: 7px 0 3px;
   padding: 0;
   box-sizing: border-box;
-  background-color: #4693ea; }
+  background-color: #034da1; }
   .search-form__input--submit:hover, .search-form__input--submit:active, .search-form__input--submit:focus {
     background: #2f86e7; }
   @media only screen and (max-width: 767px) {
