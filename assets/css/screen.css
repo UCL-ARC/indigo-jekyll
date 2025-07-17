@@ -2201,7 +2201,7 @@ figure + figure, figure + p {
   font-size: 14px;
   font-size: 1.4rem; }
   .breadcrumb__item:after {
-    font-family: "FontAwesome", monospace;
+    font-family: FontAwesome;
     font-size: 1em;
     content: "\f102";
     display: inline-block;
