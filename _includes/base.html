@@ -72,8 +72,7 @@
       });
       //set conditional assets for main.js
       var globalSiteSpecificVars = {
-        pathToJquery: "{{site.baseurl}}/assets/js/lib/jquery-1.9.1.min",
-        googleAnalyticsIdsArray: [] //specify array of site specific id's NOT UCL generic UA-943297-1
+        pathToJquery: "{{site.baseurl}}/assets/js/lib/jquery-1.9.1.min"
       }
       if (cuttingTheMustard) {
         globalSiteSpecificVars.pathToJquery = '{{site.baseurl}}/assets/js/lib/jquery-2.1.1.min';
