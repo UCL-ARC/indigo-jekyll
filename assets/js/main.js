@@ -35,6 +35,7 @@ require.config({
 	baseUrl: fullAssetLocation,
 	paths: {
 		app: '../app'
+		,allsite: 'all-site.min'
 		//libaries
 		,jquery: globalSiteSpecificVars.pathToJquery
 		,underscore: '//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.6.0/underscore-min'
@@ -46,6 +47,10 @@ require.config({
 		,typeAheadBundle:  'typeahead.bundle.min'
 	}
 	,shim:{
+		allsite: {
+			deps: ['jquery']
+			,exports: 'gen'
+		}
 		,underscore: {
 			exports: '_'
 		}
