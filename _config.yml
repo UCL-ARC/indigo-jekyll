@@ -1,0 +1,28 @@
+contact: arc@ucl.ac.uk
+
+title: "Indigo Jekyll Theme"
+includeleftnav: True
+short: Jekyll theme # shown as crumbs
+navtop: True
+
+defaults:
+  - scope: {path: ""}
+    values: {layout: default}
+
+baseurl: /indigo-jekyll
+
+include: # NOTE: This is not a path, but the directories name, wherever they are
+  - _static
+  - _modules
+
+exclude:
+  - vendor/
+  - Gemfile
+  - Gemfile.lock
+
+markdown: kramdown
+
+kramdown:
+  hard_wrap: false
+  input: GFM
+
