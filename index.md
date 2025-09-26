@@ -4,11 +4,11 @@ layout: default
 
 # UCL's indigo Jekyll remote-theme
 
-This is a theme for jekyll based sites.
+This is a theme for Jekyll-based sites.
 
 ## How to use it
 
-If you are setting a jekyll site, then you can use this theme by adding this configuration to your `_config.yml` file.
+If you are setting a Jekyll site, then you can use this theme by adding this configuration to your `_config.yml` file.
 
 ```yaml
 remote_theme: UCL-ARC/indigo-jekyll

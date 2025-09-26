@@ -41,7 +41,7 @@
 	@include rem(font-size, $font-size-sm);
 	&:after {
                 font-family: $font-breadcrumbs;
-		font-size: 1em;
+		font-size: 0.8em;
 		content: "\f102";
 		display: inline-block;
 		color: #034da1;
