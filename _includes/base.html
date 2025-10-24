@@ -29,8 +29,9 @@
   <!--link href="//cdn.ucl.ac.uk/skins/font-awesome/css/font-awesome.min.css" rel="stylesheet"-->
   <link href="{{site.baseurl}}/assets/css/screen.min.css" media="screen, projection" rel="stylesheet" type="text/css" />
   <link href="{{site.baseurl}}/assets/css/jekyll-styles.css" rel="stylesheet" type="text/css">
-  <link href="{{site.baseurl}}/site-styles/local_styles.css" rel="stylesheet" type="text/css">
-  <link href="{{site.baseurl}}/site-styles/ipython.css" rel="stylesheet" type="text/css">
+  {% for file in site.site-styles %}
+  <link href="{{site.baseurl}}/site-styles/{{file}}" rel="stylesheet" type="text/css">
+  {% endfor %}
   <link rel="stylesheet" media="screen, projection" href="//cdn.ucl.ac.uk/skins/UCLDrupalIndigoSkin/default-theme/css/brightblue.min.css?sspcng">
 
   <link rel="shortcut icon" href="{{site.baseurl}}/assets/images/favicon.ico" />
