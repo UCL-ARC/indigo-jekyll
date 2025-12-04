@@ -1564,7 +1564,7 @@ figure + figure, figure + p {
     width: 100%; } }
 /* 
 * Base name: Grid
-* Note: Applying Indigo grid to custom breakpoints. See - http://www.ucl.ac.uk/indigo/grid.php
+* Note: Applying Indigo grid to custom breakpoints. See - https://ucl.ac.uk/indigo/grid.php
 -------------------------------------------------------------- */
 @media (max-width: 619px) {
   .col {
@@ -2830,7 +2830,7 @@ figure + figure, figure + p {
 /* 
 * Pattern name: Media
 * Use: For a content block aligned to an image
-* Note: http://www.stubbornella.org/content/2010/06/25/the-media-object-saves-hundreds-of-lines-of-code/
+* Note: https://stubbornella.org/content/2010/06/25/the-media-object-saves-hundreds-of-lines-of-code/
 -------------------------------------------------------------- */
 .media__aside {
   float: left;

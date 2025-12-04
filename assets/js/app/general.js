@@ -164,7 +164,7 @@ define(["jquery","allsite"],function($,gen){
 		}
 		if(isCompatabilityMode || debug){
 			var messageStr = "<p>This website will not display correctly in compatibilty mode.";
-			messageStr += " For more information please see <a href='http://www.ucl.ac.uk/indigo/design-foundation/indigo-constraints'>Indigo constraints</a></p>";
+			messageStr += " For more information please see <a href='https://ucl.ac.uk/indigo/design-foundation/indigo-constraints'>Indigo constraints</a></p>";
 			
 			$('body').prepend("<div class='announcement-bar'>" + messageStr + "</a><a href='#' class='announcement-bar--close'>x</span>");
 
