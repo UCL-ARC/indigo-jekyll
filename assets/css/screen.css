@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* Variables
 -------------------------------------------------------------- */
 /* Variable imports
@@ -2211,7 +2212,7 @@ figure + figure, figure + p {
     position: relative;
     top: 1px; }
   .breadcrumb__item:last-child:after {
-    content: " ";
+    content: "ㅤ";
     margin: 0; }
 
 .breadcrumb__item--current > a {
