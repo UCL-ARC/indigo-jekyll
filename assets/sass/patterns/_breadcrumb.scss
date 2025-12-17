@@ -52,7 +52,7 @@
 	}
 
 	&:last-child:after {
-		content: " ";
+		content: "ㅤ"; // Adds a Hangul Filler (empty space), so it doesn't push up the last element
 		margin: 0; 
 	}
 }
