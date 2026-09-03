@@ -30,9 +30,9 @@
   <link href="{{site.baseurl}}/assets/css/screen.min.css" media="screen, projection" rel="stylesheet" type="text/css" />
   <link href="{{site.baseurl}}/assets/css/jekyll-styles.css" rel="stylesheet" type="text/css">
   {% assign ipythonstylepath = "/site-styles/ipython.css" %}
-  {% assign file = site.static_files | where: "path", ipythonstylepath | first %}
-  {% if file %}
-  <link href="{{site.baseurl}}/site-styles/ipython.css" rel="stylesheet" type="text/css">
+  {% assign ipyfile = site.static_files | where: "path", ipythonstylepath | first %}
+  {% if ipyfile %}
+<link href="{{site.baseurl}}{{ipythonstylepath}}" rel="stylesheet" type="text/css">
   {% endif %}
   <link href="{{site.baseurl}}/site-styles/local_styles.css" rel="stylesheet" type="text/css">
   <link rel="stylesheet" media="screen, projection" href="//cdn.ucl.ac.uk/skins/UCLDrupalIndigoSkin/default-theme/css/brightblue.min.css?sspcng">
